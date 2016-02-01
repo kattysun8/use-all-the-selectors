@@ -35,7 +35,7 @@ nav ul {
 }
 
 html mark {
-  background-color: #719307;
+  background-color: #719e07;
 }
 
 a[rel="external"] {
@@ -47,7 +47,7 @@ ol > li:first-child {
 }
 
 ol > li:last-child {
-  color:#2aa198;
+  color: #2aa198;
 }
 
 .types > li:nth-child(odd) {
@@ -56,4 +56,8 @@ ol > li:last-child {
 
 .types > li:nth-child(even) {
   background-color: #586e75;
+}
+
+.types > li:nth-child(3n) {
+  background-color: #d04b16;
 }
